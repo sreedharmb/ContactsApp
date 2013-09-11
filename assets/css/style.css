@@ -1,0 +1,16 @@
+@import url('../../com/ext/bootstrap/css/bootstrap.css');
+@import url('../../com/ext/bootstrap/css/glyphicons/css/bootstrap-glyphicons.css');
+/*@import url('../../com/ext/flatui/css/flat-ui.css');*/
+
+
+.panel-heading {
+	text-align: center;
+}
+
+.pre-scrollable {
+	max-height: 520px;
+}
+
+#newContactTooltip {
+	
+}

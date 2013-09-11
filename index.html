@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacts</title>
+</head>
+
+<body id = 'app'>
+	<div class="row">
+		<div class="navbar">
+		  	<a href="#" class="navbar-brand">Contacts</a>
+		  	<p class="navbar-text pull-right">Signed in as <a href="#" class="navbar-link">Sreedhar</a></p>
+		  	<!-- <div class="pull-right"> -->
+		  	<a href="#newContact"><button type="button" class="btn btn-default navbar-btn pull-right" id="newContact" data-toggle="tooltip">New Contact</button></a>
+		  	<!-- <div class="tooltip fade bottom in" id="newContactTooltip">
+		  		<div class="tooltip-arrow"></div>
+		  		<div class="tooltip-inner">Click here to create new contact</div>
+		  	</div> -->
+		  	<!-- </div> -->
+		  	<form class="navbar-form form-inline pull-left">
+      			<input type="text" class="form-control" placeholder="search" style= "width: 250px" id="searchInput"></input>
+      			<a href='#search'><button type="button" class="btn btn-primary" id="searchBtn">search</button></a>
+    		</form>
+		</div>
+	</div>
+	<div class="row">
+		
+		<!-- <div class="col-lg-2 panel" id="groupSection">
+			<div class="panel-heading">
+				<h3 class="panel-title">Groups</h3>
+			</div>
+		</div> -->
+		
+		<div class="col-lg-3 panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Contacts</h3>
+			</div>
+			<div id="contactListSection" class="pre-scrollable"></div>
+		</div>
+		
+		<div class="col-lg-5 panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Contact Details</h3>
+			</div>
+			<!-- <span class="glyphicon glyphicon-star-empty pull-right"></span> -->
+			<div  id="contactDetailsSection"></div>
+		</div>
+	</div>
+
+
+	<script data-main="main" src="com/ext/require/require.js" type="text/javascript"></script>
+	
+</body>
+</html>
