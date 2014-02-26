@@ -2,16 +2,15 @@
 	appDir: '.',
 	baseUrl: '.',
 	dir: '../ContactsApplication',
-	paths: {
-		'jquery'					: 'com/ext/jquery/jquery-1.10.2',
-		'underscore'				: 'com/ext/underscore/underscore',
-		'backbone'					: 'com/ext/backbone/backbone',
-		'bootstrap'					: 'com/ext/bootstrap/js/bootstrap'
-		// 'text'						: 'com/ext/require/text',
-		// 'jquery.qtip'				: 'com/ext/jquery/qtip/jquery.qtip.min'
-		// 'jqueryui'					: 'com/ext/jquery/jqueryui/jquery-ui.min'
+
+	paths : {
+		'jquery'			: 'com/ext/jquery/jquery-1.10.2',
+		'underscore'		: 'com/ext/underscore/underscore',
+		'backbone'			: 'com/ext/backbone/backbone',
+		'bootstrap'			: 'com/ext/bootstrap/js/bootstrap'
 	},
-	'shim': {
+
+	shim: {
 		
 		'underscore'		: {
 			exports			: '_'
@@ -29,11 +28,13 @@
 
 
 	},
+
 	modules: [
 		{
-			name: 'main'
-		}
+            name: "main"
+        }
 	],
+	
 	preserveLicenseComments: false,
 	optimizeAllPluginResources: true,
 	findNestedDependencies: true,
